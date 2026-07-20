@@ -23,7 +23,7 @@ public:
         while (index < s.size() && isdigit(s[index])) {
             int digit = s[index] - '0';
 
-            // Check if adding this digit will overflow
+          
             if (result > INT_MAX / 10 ||
                 (result == INT_MAX / 10 && digit > 7)) {
 
