@@ -17,7 +17,6 @@ public:
             if (currArea > maxWater)
                 maxWater = currArea;
 
-            // Move the pointer with the smaller height
             if (height[i] < height[j])
                 i++;
             else
